@@ -17,3 +17,5 @@ end
 
 fido = Dog.new
 fido.bark = 'bark!'
+
+STDOUT.puts "woof!"
