@@ -10,12 +10,13 @@ class Dog
   end
   def bark
     @bark
+      puts 'woof!'
   end
 
-  puts 'woof!'
+
 end
 
 fido = Dog.new
 fido.bark = 'bark!'
 
-STDOUT.puts "woof!"
+
